@@ -1,0 +1,10 @@
+.recharts-cartesian-axis-ticks{
+    transform: translateX(-3rem) !important;
+}
+
+.recharts-bar{
+    transform: translateX(-3rem) !important;
+}
+.recharts-cartesian-grid{
+    transform: translateX(-3rem) !important;
+}

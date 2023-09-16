@@ -1,0 +1,108 @@
+.active{
+    font-weight: 600 !important;
+}
+
+
+.menu-btn
+{
+    position: relative;
+    align-items: center;
+    height: 30px;
+    width:  30px;
+    cursor: pointer;
+    transition: all  0.3s ease-in-out;
+}
+
+.check-button-close
+{
+    width: 15px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.menu-btn:hover .check-button-close
+{
+    width: 17px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.check-button-close::before,.check-button-close::after
+{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn:hover .check-button-close::before
+{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+.menu-btn:hover .check-button-close::after
+{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.check-button-close::before
+{
+    transform: translateY(-6px);
+}
+.check-button-close::after
+{
+    transform: translateY(6px);
+}     
+
+.check-button-open
+{
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: all .3s ease-in-out;
+}
+.check-button-open::before,.check-button-open::after
+{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+.check-button-open::before
+{
+    transform: translateY(0px);
+    transform: rotate(45deg);
+}
+.check-button-open::after
+{
+    transform: translateY(0px);
+    transform: rotate(-45deg);
+}     
+
+
+
+
+
+.navbar{
+    transition: 0.3s ease-in-out all;
+}

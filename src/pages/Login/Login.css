@@ -1,0 +1,6 @@
+.card {
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+.linear_gradient{
+    background: linear-gradient(180deg, #4285F4 0%, #286DE0 100%)
+}
