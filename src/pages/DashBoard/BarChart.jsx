@@ -46,7 +46,7 @@ export default function Chart(){
       useEffect(() => {
         async function fetchData() {
           try {
-            const response = await fetch('http://localhost:4000/api/chart', {
+            const response = await fetch('https://dashboardback-u7y5.vercel.app/api/chart', {
               headers: {
                 'Content-Type': 'application/json',
               },

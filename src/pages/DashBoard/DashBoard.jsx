@@ -61,7 +61,7 @@ export default function DashBoard(){
     return (<>
    <div className="py-4 px-4 pb-10 sm:py-10 sm:px-10 h-full md:h-screen w-screen flex bg-mainBg relative flex-col lg:flex-row">
             {menu ? <ProfileCard setprofile={setprofile} setmenu={setmenu} /> : null}
-            <div className={`${ham ? 'h-[37rem]' : 'h-[8rem]'} navbar w-full lg:w-[22rem]  md:h-full md:min-w-fit bg-primary rounded-2xl py-10 flex-row lg:py-24 px-6  md:pl-10 md:pr-6 lg:pl-12 xl:pl-14`}>
+            <div className={`${ham ? 'h-[37rem]' : 'h-[8rem]'} navbar w-full lg:w-[25rem]  md:h-full md:min-w-fit bg-primary rounded-2xl py-10 flex-row lg:py-24 px-6  md:pl-10 md:pr-6 lg:pl-12 xl:pl-14`}>
                 <div className={`sm:w-full flex justify-between font-primary font-semibold text-white text-5xl md:w-fit px-10 ${ham ? "mb-20" : "mb-12"} mb-10 lg:mb-16 md:px-0`}>
                     <h2>Board.</h2>
                     <div onClick={e=>setham(cur=>!cur)} className="menu-btn md:hidden flex">
